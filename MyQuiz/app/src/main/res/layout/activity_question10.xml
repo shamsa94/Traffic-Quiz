@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_start_quiz"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.test.myquiz.myquiz.StartQuiz">
+    <ImageView
+        android:layout_width="120dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/quest010"
+        android:layout_height="280dp" />
+
+    <Button
+        android:text="Next Question"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/next02"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/next02"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="10dp"
+        android:id="@+id/RG">
+
+
+
+
+        <RadioButton
+            android:text="Quayside or river bank ahead"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/radioButton3"
+            android:layout_below="@+id/radioButton2"
+            android:layout_alignLeft="@+id/correctAns"
+            android:layout_alignStart="@+id/correctAns" />
+
+
+
+        <RadioButton
+            android:text="Uneven road"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/radioButton3"
+            android:layout_alignLeft="@+id/radioButton2"
+            android:layout_alignStart="@+id/radioButton2"
+            android:id="@+id/radioButton4"
+            />
+
+
+
+        <RadioButton
+            android:text="Risk of falling rocks"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/correctAns"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:id="@+id/radioButton2" />
+
+        <RadioButton
+            android:text="Pedestrian crossing ahead"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/correctAns"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+    </RadioGroup>
+
+</RelativeLayout>

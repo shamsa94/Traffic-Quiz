@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/rootRL"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/traffic00">
+
+    <Button
+        android:layout_height="wrap_content"
+        android:id="@+id/GoButton"
+        android:text="Start the Quiz !"
+        android:background="@android:color/holo_blue_dark"
+        android:textColor="@android:color/black"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="11dp"
+        android:layout_width="250dp" />
+
+</RelativeLayout>

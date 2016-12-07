@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.test.myquiz.myquiz">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".TrafficQuiz">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".EndQuiz" />
+        <activity android:name=".StartQuiz" />
+        <activity android:name=".Question02" />
+        <activity android:name=".Question03" />
+        <activity android:name=".Question04" />
+        <activity android:name=".Question05" />
+        <activity android:name=".Question06" />
+        <activity android:name=".Question07" />
+        <activity android:name=".Question08" />
+        <activity android:name=".Question09" />
+        <activity android:name=".Question10"></activity>
+    </application>
+
+</manifest>
